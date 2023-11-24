@@ -1,0 +1,3 @@
+- you have to imprt the image before using it 
+-in order for the image to be displayed you just name it in the curly bracess
+ 
