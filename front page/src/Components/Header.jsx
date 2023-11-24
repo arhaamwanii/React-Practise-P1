@@ -1,5 +1,5 @@
 import React from 'react'
-import nike from '../assets/nike.png';
+import nike from '../assets/nike1.png';
 
 
 function Header() {
@@ -7,7 +7,7 @@ function Header() {
     <>
         <div className='head-container'>
             <div className=' logo'>
-                <img style={{height:60, width: 200}} src="https://banner2.cleanpng.com/20180716/xck/kisspng-nike-free-swoosh-logo-lauras-girls-karlsruhe-karlsruhe-5b4d5b3f803c05.9518714915317962875253.jpg" alt="nike img " />    
+                <img style={{height:60, width: 200}} src={nike} alt="nike img " />    
             </div>
 
             <div className='middle-options '>
@@ -18,7 +18,7 @@ function Header() {
              </div>
 
             <div className='login-right'>
-                <img style={{height:50 , width: 50}} src="https://www.svgrepo.com/show/166680/login-button.svg" alt="" />
+                <img style={{height:50 , width: 50}} src="https://dqcgrsy5v35b9.cloudfront.net/cruiseplanner/assets/img/icons/login-w-icon.png" alt="" />
             </div>
         </div>
     </>
